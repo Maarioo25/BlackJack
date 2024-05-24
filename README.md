@@ -49,7 +49,7 @@ Bienvenido a mi juego de Blackjack desarrollado en Java con JavaFX. Este proyect
 
 1. **Clona el repositorio**
     ```sh
-    git clone https://github.com/tu-usuario/blackjack-game.git
+    git clone https://github.com/Maarioo25/BlackJack.git
     ```
 2. **Importa el proyecto en tu IDE favorito**
     - Asegúrate de que tu IDE esté configurado para trabajar con Java y JavaFX.
@@ -58,7 +58,7 @@ Bienvenido a mi juego de Blackjack desarrollado en Java con JavaFX. Este proyect
     - Configura las librerías de JavaFX en tu IDE. Puedes descargar JavaFX desde [Gluon](https://gluonhq.com/products/javafx/).
 
 4. **Ejecuta la aplicación**
-    - Ejecuta la clase principal `Main.java`.
+    - Ejecuta la clase principal `MainApp.java`.
 
 ## Uso:
 
