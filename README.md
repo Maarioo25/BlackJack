@@ -1,6 +1,6 @@
 # 🎲 Blackjack Game
 
-![Blackjack Logo](./assets/blackjack_logo.png)
+![Blackjack Logo](./assets/icon.png)
 
 ## Descripción
 
@@ -14,10 +14,16 @@ Bienvenido a mi juego de Blackjack desarrollado en Java con JavaFX. Este proyect
 
 ## Capturas de Pantalla
 
-![Pantalla de Inicio](./assets/screenshot_start.png)
+![Pantalla de Inicio](./assets/Pantalla_Inicio.png)
 *Pantalla de Inicio*
 
-![Juego en Progreso](./assets/screenshot_game.png)
+![Pantalla de Inicio](./assets/Idioma.png)
+*Selección de Idioma*
+
+![Pantalla de Inicio](./assets/Nombre_Avatar.png)
+*Nombre y Avatar*
+
+![Juego en Progreso](./assets/Tablero.png)
 *Juego en Progreso*
 
 ## Requisitos del Sistema
