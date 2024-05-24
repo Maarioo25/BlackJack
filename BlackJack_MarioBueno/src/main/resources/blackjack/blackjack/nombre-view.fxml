@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="394.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="blackjack.blackjack.controllers.NombreController">
+   <ImageView fitHeight="400.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../Images/Degradado.jpeg" />
+   </ImageView>
+   <Label fx:id="label_principal" alignment="CENTER" contentDisplay="CENTER" layoutX="40.0" layoutY="31.0" prefHeight="100.0" prefWidth="320.0" text="Introduce tu Nombre y selecciona un avatar" textAlignment="CENTER" textFill="#a8a8a8" wrapText="true">
+      <font>
+         <Font name="Garamond" size="36.0" />
+      </font>
+   </Label>
+   <TextField fx:id="nombre_field" alignment="CENTER" layoutX="123.0" layoutY="148.0" onKeyTyped="#text_changed" promptText="Nombre" />
+   <ImageView fx:id="hombre1_peque" fitHeight="106.0" fitWidth="50.0" layoutX="82.0" layoutY="200.0" onMouseEntered="#mouse_on_hombre1_peque" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../Images/Avatares/hombre1.png" />
+   </ImageView>
+   <ImageView fx:id="hombre2_peque" fitHeight="106.0" fitWidth="50.0" layoutX="143.0" layoutY="200.0" onMouseEntered="#mouse_on_hombre2_peque" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../Images/Avatares/hombre2.png" />
+   </ImageView>
+   <ImageView fx:id="hombre3_peque" fitHeight="106.0" fitWidth="50.0" layoutX="204.0" layoutY="200.0" onMouseEntered="#mouse_on_hombre3_peque" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../Images/Avatares/hombre3.png" />
+   </ImageView>
+   <ImageView fx:id="hombre4_peque" fitHeight="50.0" fitWidth="50.0" layoutX="265.0" layoutY="200.0" onMouseEntered="#mouse_on_hombre4_peque" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../Images/Avatares/hombre4.png" />
+   </ImageView>
+   <ImageView fx:id="hombre5_peque" fitHeight="106.0" fitWidth="50.0" layoutX="82.0" layoutY="268.0" onMouseEntered="#mouse_on_hombre5_peque" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../Images/Avatares/hombre5.png" />
+   </ImageView>
+   <ImageView fx:id="mujer1_peque" fitHeight="106.0" fitWidth="50.0" layoutX="143.0" layoutY="268.0" onMouseEntered="#mouse_on_mujer1_peque" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../Images/Avatares/mujer1.png" />
+   </ImageView>
+   <ImageView fx:id="mujer2_peque" fitHeight="106.0" fitWidth="50.0" layoutX="204.0" layoutY="268.0" onMouseEntered="#mouse_on_mujer2_peque" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../Images/Avatares/mujer2.png" />
+   </ImageView>
+   <ImageView fx:id="mujer3_peque" fitHeight="106.0" fitWidth="50.0" layoutX="265.0" layoutY="268.0" onMouseEntered="#mouse_on_mujer3_peque" pickOnBounds="true" preserveRatio="true">
+      <Image url="@../../Images/Avatares/mujer3.png" />
+   </ImageView>
+   <ImageView fx:id="hombre1_grande" fitHeight="60.0" fitWidth="60.0" layoutX="77.0" layoutY="195.0" onMouseClicked="#mouse_click_hombre1_grande" onMouseExited="#mouse_off_hombre1_grande" pickOnBounds="true" preserveRatio="true" visible="false">
+      <Image url="@../../Images/Avatares/hombre1.png" />
+   </ImageView>
+   <ImageView fx:id="hombre2_grande" fitHeight="60.0" fitWidth="60.0" layoutX="138.0" layoutY="195.0" onMouseClicked="#mouse_click_hombre2_grande" onMouseExited="#mouse_off_hombre2_grande" pickOnBounds="true" preserveRatio="true" visible="false">
+      <Image url="@../../Images/Avatares/hombre2.png" />
+   </ImageView>
+   <ImageView fx:id="hombre3_grande" fitHeight="60.0" fitWidth="60.0" layoutX="199.0" layoutY="195.0" onMouseClicked="#mouse_click_hombre3_grande" onMouseExited="#mouse_off_hombre3_grande" pickOnBounds="true" preserveRatio="true" visible="false">
+      <Image url="@../../Images/Avatares/hombre3.png" />
+   </ImageView>
+   <ImageView fx:id="hombre4_grande" fitHeight="60.0" fitWidth="60.0" layoutX="260.0" layoutY="195.0" onMouseClicked="#mouse_click_hombre4_grande" onMouseExited="#mouse_off_hombre4_grande" pickOnBounds="true" preserveRatio="true" visible="false">
+      <Image url="@../../Images/Avatares/hombre4.png" />
+   </ImageView>
+   <ImageView fx:id="hombre5_grande" fitHeight="60.0" fitWidth="60.0" layoutX="77.0" layoutY="263.0" onMouseClicked="#mouse_click_hombre5_grande" onMouseExited="#mouse_off_hombre5_grande" pickOnBounds="true" preserveRatio="true" visible="false">
+      <Image url="@../../Images/Avatares/hombre5.png" />
+   </ImageView>
+   <ImageView fx:id="mujer1_grande" fitHeight="60.0" fitWidth="60.0" layoutX="138.0" layoutY="263.0" onMouseClicked="#mouse_click_mujer1_grande" onMouseExited="#mouse_off_mujer1_grande" pickOnBounds="true" preserveRatio="true" visible="false">
+      <Image url="@../../Images/Avatares/mujer1.png" />
+   </ImageView>
+   <ImageView fx:id="mujer2_grande" fitHeight="60.0" fitWidth="60.0" layoutX="199.0" layoutY="263.0" onMouseClicked="#mouse_click_mujer2_grande" onMouseExited="#mouse_off_mujer2_grande" pickOnBounds="true" preserveRatio="true" visible="false">
+      <Image url="@../../Images/Avatares/mujer2.png" />
+   </ImageView>
+   <ImageView fx:id="mujer3_grande" fitHeight="60.0" fitWidth="60.0" layoutX="260.0" layoutY="263.0" onMouseClicked="#mouse_click_mujer3_grande" onMouseExited="#mouse_off_mujer3_grande" pickOnBounds="true" preserveRatio="true" visible="false">
+      <Image url="@../../Images/Avatares/mujer3.png" />
+   </ImageView>
+   <Button fx:id="btn_jugar" disable="true" layoutX="159.0" layoutY="336.0" mnemonicParsing="false" onAction="#btn_click" prefHeight="40.0" prefWidth="80.0" text="Jugar" textAlignment="CENTER">
+      <font>
+         <Font name="Garamond" size="18.0" />
+      </font>
+   </Button>
+</AnchorPane>

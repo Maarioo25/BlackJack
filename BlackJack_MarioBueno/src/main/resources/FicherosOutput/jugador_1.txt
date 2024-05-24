@@ -1,0 +1,8 @@
+Partida 1
+Fichas Totales: 6756
+Apuesta realizada: 186 ----- Dinero Sobrante: 6570
+Apuesta Perdida.
+------------------------------
+Partida 2
+Fichas Totales: 6570
+Apuesta realizada: 281 ----- Dinero Sobrante: 6289
